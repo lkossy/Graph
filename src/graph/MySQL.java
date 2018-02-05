@@ -48,7 +48,7 @@ public class MySQL {
 
 	}
 	public ResultSet selectAll(){
-		String sql = "SELECT * FROM `50616044`";
+		String sql = "SELECT * FROM `50616040`";
 		ResultSet rs = null;
 		try {
 			rs = stmt.executeQuery (sql);

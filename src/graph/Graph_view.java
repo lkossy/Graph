@@ -18,6 +18,7 @@ import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.data.category.CategoryDataset;
 import org.jfree.data.category.DefaultCategoryDataset;
 
+
 import graph.MySQL;
 
 
@@ -101,7 +102,7 @@ public class Graph_view extends Frame implements ActionListener,WindowListener{
 			    		"Import Volume",
 			            "Year",
 			            "Ton",
-			            data,
+			            (CategoryDataset) data,
 			            PlotOrientation.VERTICAL,
 			            true,
 			            false,
